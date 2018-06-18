@@ -3279,7 +3279,7 @@ containing a value of this type.
         public static int center_vertical=0x7f0b0051;
         public static int checkbox=0x7f0b007d;
         public static int chronometer=0x7f0b00b4;
-        public static int clearButton=0x7f0b00bb;
+        public static int clearButton=0x7f0b00bc;
         public static int clip_horizontal=0x7f0b0058;
         public static int clip_vertical=0x7f0b0059;
         public static int collapseActionView=0x7f0b0044;
@@ -3296,7 +3296,9 @@ containing a value of this type.
         public static int design_menu_item_action_area_stub=0x7f0b00a1;
         public static int design_menu_item_text=0x7f0b00a0;
         public static int design_navigation_view=0x7f0b009f;
+        public static int dialogTitle=0x7f0b00be;
         public static int disableHome=0x7f0b002c;
+        public static int editText=0x7f0b00bf;
         public static int edit_query=0x7f0b0088;
         public static int end=0x7f0b003b;
         public static int end_padder=0x7f0b00ba;
@@ -3331,9 +3333,9 @@ containing a value of this type.
         public static int list_item=0x7f0b006b;
         public static int map=0x7f0b00a4;
         public static int mapButton=0x7f0b0095;
-        public static int masked=0x7f0b00be;
+        public static int masked=0x7f0b00c1;
         public static int media_actions=0x7f0b00ae;
-        public static int message=0x7f0b00bc;
+        public static int message=0x7f0b00bd;
         public static int middle=0x7f0b003c;
         public static int mini=0x7f0b005d;
         public static int multiply=0x7f0b0033;
@@ -3402,6 +3404,7 @@ containing a value of this type.
         public static int textSpacerNoButtons=0x7f0b0074;
         public static int textSpacerNoTitle=0x7f0b0073;
         public static int textView1=0x7f0b00a5;
+        public static int textView2=0x7f0b00bb;
         public static int text_input_password_toggle=0x7f0b00a3;
         public static int textinput_counter=0x7f0b0014;
         public static int textinput_error=0x7f0b0015;
@@ -3422,7 +3425,7 @@ containing a value of this type.
         public static int up=0x7f0b0009;
         public static int useLogo=0x7f0b0031;
         public static int view_offset_helper=0x7f0b0016;
-        public static int visible=0x7f0b00bd;
+        public static int visible=0x7f0b00c0;
         public static int wide=0x7f0b0026;
         public static int withText=0x7f0b0047;
         public static int wrap_content=0x7f0b0039;
@@ -3504,6 +3507,7 @@ containing a value of this type.
         public static int select_dialog_singlechoice_material=0x7f04003c;
         public static int support_simple_spinner_dropdown_item=0x7f04003d;
         public static int tooltip=0x7f04003e;
+        public static int user_input_dialog_box=0x7f04003f;
     }
     public static final class mipmap {
         public static int ic_launcher=0x7f030000;

@@ -41,9 +41,9 @@ namespace Parky
             var table = db.Table<Vehicle>();
             foreach (var vehicle in table)
             {
-                //displayText.Text += vehicle.Lat + " " + vehicle.Lng + "\n" + vehicle.Placed + "\n" + "\n";
-                displayText.Text += string.Format("Coordinaten: {0}, {1} \n Datum: {2} \n", vehicle.Lat, vehicle.Lng, vehicle.Placed);
-                displayText.Text += "";
+                displayText.Text += string.Format(" Naam: {3} \n Verdieping: {4} \n Info: {5} \n Coordinaten: {0}, {1} \n Datum: {2} \n", 
+                    vehicle.Lat, vehicle.Lng, vehicle.Placed, vehicle.Name, vehicle.Verdieping, vehicle.Info);
+                displayText.Text += "\n";
             }
 
             // Clickevents
@@ -53,6 +53,7 @@ namespace Parky
                 var intent = new Intent(this, typeof(ParkedActivity));
                 StartActivity(intent);
             };
+
             mapBtn.Click += delegate
             {
                 var intent = new Intent(this, typeof(MapActivity));

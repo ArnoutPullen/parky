@@ -1,3 +1,6 @@
+Parky.InfoActivity, Parky;md52782c3c7452eda898fbbfde94c57a09e.InfoActivity
+Parky.InfoActivity;md52782c3c7452eda898fbbfde94c57a09e.InfoActivity
+parky.InfoActivity;md52782c3c7452eda898fbbfde94c57a09e.InfoActivity
 Parky.MainActivity, Parky;md52782c3c7452eda898fbbfde94c57a09e.MainActivity
 Parky.MainActivity;md52782c3c7452eda898fbbfde94c57a09e.MainActivity
 parky.MainActivity;md52782c3c7452eda898fbbfde94c57a09e.MainActivity

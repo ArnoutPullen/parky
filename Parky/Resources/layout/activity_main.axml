@@ -13,4 +13,11 @@
         android:layout_height="75dp"
         android:layout_width="75dp"
         android:id="@+id/mapButton" />
+    <Button
+        android:id="@+id/vehiclesButton"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Vehicles"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>

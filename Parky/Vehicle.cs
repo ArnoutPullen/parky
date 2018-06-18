@@ -15,13 +15,16 @@ namespace Parky
 {
     class Vehicle
     {
+        public string Name { get; set; }
+        public string Verdieping { get; set; }
+        public string Info { get; set; }
         public double Lat { get; set; }
         public double Lng { get; set; }
         public DateTime Placed { get; set; }
 
         public Vehicle()
         {
-            Placed = DateTime.Now.Date;
+            Placed = DateTime.Today;
         }
     }
 }

@@ -3335,11 +3335,11 @@ namespace Parky
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F020154
-			public const int adjust_height = 2130837844;
+			// aapt resource value: 0x7F020160
+			public const int adjust_height = 2130837856;
 			
-			// aapt resource value: 0x7F020153
-			public const int adjust_width = 2130837843;
+			// aapt resource value: 0x7F020159
+			public const int adjust_width = 2130837849;
 			
 			// aapt resource value: 0x1
 			public const int ad_container = 1;
@@ -3368,8 +3368,8 @@ namespace Parky
 			// aapt resource value: 0x1
 			public const int android_pay_light_with_border = 1;
 			
-			// aapt resource value: 0x7F020152
-			public const int app_name = 2130837842;
+			// aapt resource value: 0x7F020158
+			public const int app_name = 2130837848;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -3485,8 +3485,8 @@ namespace Parky
 			// aapt resource value: 0x1
 			public const int classic = 1;
 			
-			// aapt resource value: 0x7F020007
-			public const int clearButton = 2130837511;
+			// aapt resource value: 0x7F020009
+			public const int clearButton = 2130837513;
 			
 			// aapt resource value: 0x1
 			public const int contact = 1;
@@ -3518,8 +3518,8 @@ namespace Parky
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F020158
-			public const int dark = 2130837848;
+			// aapt resource value: 0x7F020164
+			public const int dark = 2130837860;
 			
 			// aapt resource value: 0x1
 			public const int date = 1;
@@ -3551,11 +3551,23 @@ namespace Parky
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
+			// aapt resource value: 0x7F020010
+			public const int dialogTitle = 2130837520;
+			
 			// aapt resource value: 0x1
 			public const int donate_with = 1;
 			
 			// aapt resource value: 0x1
 			public const int donate_with_google = 1;
+			
+			// aapt resource value: 0x7F020011
+			public const int editText = 2130837521;
+			
+			// aapt resource value: 0x7F020012
+			public const int editText2 = 2130837522;
+			
+			// aapt resource value: 0x7F020013
+			public const int editText3 = 2130837523;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -3626,8 +3638,8 @@ namespace Parky
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F020157
-			public const int icon_only = 2130837847;
+			// aapt resource value: 0x7F020163
+			public const int icon_only = 2130837859;
 			
 			// aapt resource value: 0x1
 			public const int icon_uri = 1;
@@ -3689,8 +3701,8 @@ namespace Parky
 			// aapt resource value: 0x1
 			public const int license_list = 1;
 			
-			// aapt resource value: 0x7F020159
-			public const int light = 2130837849;
+			// aapt resource value: 0x7F020165
+			public const int light = 2130837861;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -3716,8 +3728,8 @@ namespace Parky
 			// aapt resource value: 0x1
 			public const int logo_only = 1;
 			
-			// aapt resource value: 0x7F020003
-			public const int map = 2130837507;
+			// aapt resource value: 0x7F020004
+			public const int map = 2130837508;
 			
 			// aapt resource value: 0x7F020002
 			public const int mapButton = 2130837506;
@@ -3782,8 +3794,8 @@ namespace Parky
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
-			// aapt resource value: 0x7F020006
-			public const int parkButton = 2130837510;
+			// aapt resource value: 0x7F020007
+			public const int parkButton = 2130837511;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
@@ -3944,8 +3956,8 @@ namespace Parky
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F020155
-			public const int standard = 2130837845;
+			// aapt resource value: 0x7F020161
+			public const int standard = 2130837857;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -4010,8 +4022,11 @@ namespace Parky
 			// aapt resource value: 0x1
 			public const int textTitle = 1;
 			
-			// aapt resource value: 0x7F020004
-			public const int textView1 = 2130837508;
+			// aapt resource value: 0x7F020005
+			public const int textView1 = 2130837509;
+			
+			// aapt resource value: 0x7F020008
+			public const int textView2 = 2130837512;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -4049,8 +4064,8 @@ namespace Parky
 			// aapt resource value: 0x7F0C0086
 			public const int touch_outside = 2131492998;
 			
-			// aapt resource value: 0x7F020005
-			public const int trackingButton = 2130837509;
+			// aapt resource value: 0x7F020006
+			public const int trackingButton = 2130837510;
 			
 			// aapt resource value: 0x7F0C0087
 			public const int transition_current_scene = 2131492999;
@@ -4076,14 +4091,17 @@ namespace Parky
 			// aapt resource value: 0x1
 			public const int url = 1;
 			
+			// aapt resource value: 0x7F020003
+			public const int vehiclesButton = 2130837507;
+			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
 			
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
 			
-			// aapt resource value: 0x7F020156
-			public const int wide = 2130837846;
+			// aapt resource value: 0x7F020162
+			public const int wide = 2130837858;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -4380,6 +4398,9 @@ namespace Parky
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
+			
+			// aapt resource value: 0x7F030005
+			public const int user_input_dialog_box = 2130903045;
 			
 			// aapt resource value: 0x1
 			public const int wallet_test_layout = 1;

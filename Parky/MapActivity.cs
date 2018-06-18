@@ -36,10 +36,9 @@ namespace Parky
     {
         GoogleMap map;
         Button parkButton;
+        Button vButton;
         SQLiteConnection db;
-        List<LatLng> markersList;
         string dbPath;
-        LatLng myPosition;
         TextView textView;
         private const int MY_PERMISSION_REQUEST_CODE = 7171;
         private const int PLAY_SERVICES_RESOLUTION_REQUEST = 7172;
@@ -51,6 +50,7 @@ namespace Parky
         private static int FATEST_INTERVAL = 3000; //sec
         private static int DISPLACAEMENT = 10; //METER
         Button tButton;
+        LatLng markerPosition;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -61,6 +61,7 @@ namespace Parky
             textView = FindViewById<TextView>(Resource.Id.textView1);
             tButton = FindViewById<Button>(Resource.Id.trackingButton);
             parkButton = FindViewById<Button>(Resource.Id.parkButton);
+            vButton = FindViewById<Button>(Resource.Id.vehiclesButton);
 
             // Permissions check
             if (ActivityCompat.CheckSelfPermission(this, Manifest.Permission.AccessCoarseLocation) != Permission.Granted
@@ -73,11 +74,8 @@ namespace Parky
             }
             else
             {
-                if (CheckPlayServices())
-                {
-                    BuildGoogleApiClient();
-                    CreateLocationRequest();
-                }
+                BuildGoogleApiClient();
+                CreateLocationRequest();
             }
 
             // Map
@@ -95,27 +93,47 @@ namespace Parky
             }
             _mapFragment.GetMapAsync(this);
 
-            // Parkbutton
-            parkButton.Click += delegate
-            {
-                foreach (var marker in markersList)
-                {
-                    db.Insert(new Vehicle() { Lat = marker.Latitude, Lng = marker.Longitude });
-                }
-                markersList.Clear();
-                map.Clear();
-                var intent = new Intent(this, typeof(ParkedActivity));
-                StartActivity(intent);
-            };
-
             // Database
             dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "ParkyDatabase.db3");
             db = new SQLiteConnection(dbPath);
             db.CreateTable<Vehicle>();
-            markersList = new List<LatLng>();
 
+            // Parkbutton
+            parkButton.Click += delegate
+            {
+                LayoutInflater layoutInflater = LayoutInflater.From(this);
+                View view = layoutInflater.Inflate(Resource.Layout.user_input_dialog_box, null);
+                Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
+                alertbuilder.SetView(view);
+                var userdata = view.FindViewById<EditText>(Resource.Id.editText);
+                var userdata2 = view.FindViewById<EditText>(Resource.Id.editText2);
+                var userdata3 = view.FindViewById<EditText>(Resource.Id.editText3);
+                alertbuilder.SetCancelable(false)
+                    .SetPositiveButton("OK", delegate{
+                        db.Insert(new Vehicle() {
+                            Name =userdata.Text,
+                            Lat = markerPosition.Latitude,
+                            Lng = markerPosition.Longitude,
+                            Verdieping = userdata2.Text,
+                            Info = userdata3.Text
+                        });
+                        var intent = new Intent(this, typeof(ParkedActivity));
+                        StartActivity(intent);
 
+                        Toast.MakeText(this, "Voertuig opgeslagen", ToastLength.Short).Show();
+                    })
+                    .SetNegativeButton("Cancel", delegate{
+                        alertbuilder.Dispose();
+                    });
+                Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
+                dialog.Show();
+            };
 
+            vButton.Click += delegate
+            {
+                var intent = new Intent(this, typeof(ParkedActivity));
+                StartActivity(intent);
+            };
 
             tButton.Click += delegate
             {
@@ -130,11 +148,8 @@ namespace Parky
                 case MY_PERMISSION_REQUEST_CODE:
                     if (grantResults.Length > 0 && grantResults[0] == Permission.Granted)
                     {
-                        if (CheckPlayServices())
-                        {
-                            BuildGoogleApiClient();
-                            CreateLocationRequest();
-                        }
+                        BuildGoogleApiClient();
+                        CreateLocationRequest();
                     }
                     break;
             }
@@ -175,26 +190,6 @@ namespace Parky
             mGoogleApiClient.Connect();
         }
 
-        private bool CheckPlayServices()
-        {
-            int resultCode = GooglePlayServicesUtil.IsGooglePlayServicesAvailable(this);
-            if (resultCode != ConnectionResult.Success)
-            {
-                if (GooglePlayServicesUtil.IsUserRecoverableError(resultCode))
-                {
-                    GooglePlayServicesUtil.GetErrorDialog(resultCode, this, PLAY_SERVICES_RESOLUTION_REQUEST).Show();
-
-                }
-                else
-                {
-                    Toast.MakeText(ApplicationContext, "This device does not support Google Play Services", ToastLength.Long).Show();
-                    Finish();
-                }
-                return false;
-            }
-            return true;
-        }
-
         public void OnMapReady(GoogleMap googleMap)
         {
             map = googleMap;
@@ -202,6 +197,8 @@ namespace Parky
             map.UiSettings.MyLocationButtonEnabled = true;
             map.UiSettings.CompassEnabled = true;
 
+            CameraUpdate cUpdate = CameraUpdateFactory.NewLatLngZoom(new LatLng(51.917411, 4.484052), 13);
+            map.MoveCamera(cUpdate);
 
             // Loading saved vehicles
             var table = db.Table<Vehicle>();
@@ -209,8 +206,8 @@ namespace Parky
             {
                 MarkerOptions markerOptions = new MarkerOptions()
                     .SetPosition(new LatLng(vehicle.Lat, vehicle.Lng))
-                    .SetTitle("Opgeslagen voertuig")
-                    .SetSnippet($"Lat {vehicle.Lat} Long {vehicle.Lng}")
+                    .SetTitle(vehicle.Name)
+                    .SetSnippet($"Verdieping: {vehicle.Verdieping} Info: {vehicle.Info}")
                     .Draggable(false);
                 map.AddMarker(markerOptions);
 
@@ -220,21 +217,18 @@ namespace Parky
 
             map.MapLongClick += _map_MapLongClick;
         }
-
         private void _map_MapLongClick(object sender, GoogleMap.MapLongClickEventArgs e)
         {
+
+            markerPosition = e.Point;
+
             MarkerOptions markerOptions = new MarkerOptions()
-                .SetPosition(e.Point)
-                .SetTitle("Hier staat je voertuig")
-                .SetSnippet($"Lat {e.Point.Latitude} Long {e.Point.Longitude}")
+                .SetPosition(markerPosition)
+                .SetTitle("Sleep naar je voertuig")
                 .Draggable(true);
+
             map.AddMarker(markerOptions);
-
-            markersList.Add(e.Point);
-
         }
-
-
 
         public void OnConnected(Bundle connectionHint)
         {

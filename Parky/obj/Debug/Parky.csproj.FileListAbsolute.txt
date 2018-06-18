@@ -48,6 +48,9 @@ C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\res\drawable\settingsbutton.pn
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\res\drawable\backbutton.png
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\res\drawable\bike.png
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\res\drawable\rof.png
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Location.dll.stamp
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\XbdMerge\effb2371.proguard.stamp
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\res\layout\user_input_dialog_box.xml
 C:\Users\Jordy\source\repos\Parky\Parky\bin\Debug\Mono.Android.pdb
 C:\Users\Jordy\source\repos\Parky\Parky\bin\Debug\mscorlib.pdb
 C:\Users\Jordy\source\repos\Parky\Parky\bin\Debug\SQLite-net.pdb
@@ -71,6 +74,7 @@ C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\linksrc\System.Runtime.Seriali
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\linksrc\Mono.Security.pdb
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\linksrc\Parky.dll.mdb
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\Parky.csprojAssemblyReference.cache
 C:\Users\Jordy\source\repos\Parky\Parky\bin\Debug\Parky.dll.mdb
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Parky.dll.mdb
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Mono.Android.pdb
@@ -84,5 +88,3 @@ C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\System.pdb
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\System.Runtime.Serialization.pdb
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\System.Xml.pdb
-C:\Users\Jordy\source\repos\Parky\Parky\bin\Debug\Parky.dll
-C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\linksrc\Parky.dll.mdb

@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>obj\Debug\lp\10\jl\arch-core-common.jar</Jar>
-    <Jar>obj\Debug\lp\11\jl\arch-lifecycle-common.jar</Jar>
-    <Jar>obj\Debug\lp\14\jl\support-annotations.jar</Jar>
     <Jar>C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\lp\10\jl\arch-core-common.jar</Jar>
     <Jar>C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\lp\11\jl\arch-lifecycle-common.jar</Jar>
     <Jar>C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\lp\12\jl\bin\classes.jar</Jar>

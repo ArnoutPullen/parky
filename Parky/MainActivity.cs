@@ -12,6 +12,7 @@ namespace Parky
     public class MainActivity : AppCompatActivity
     {
         Button mapButton;
+        Button vButton;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -21,9 +22,17 @@ namespace Parky
             SetContentView(Resource.Layout.activity_main);
 
             mapButton = FindViewById<Button>(Resource.Id.mapButton);
+            vButton = FindViewById<Button>(Resource.Id.vehiclesButton);
+
             mapButton.Click += delegate
             {
                 var intent = new Intent(this, typeof(MapActivity));
+                StartActivity(intent);
+            };
+
+            vButton.Click += delegate
+            {
+                var intent = new Intent(this, typeof(ParkedActivity));
                 StartActivity(intent);
             };
         }
