@@ -21,7 +21,7 @@ namespace Parky
 
         public Vehicle()
         {
-            Placed = DateTime.Now;
+            Placed = DateTime.Now.Date;
         }
     }
 }

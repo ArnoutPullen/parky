@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>13/06/2018 12:02:20</xs:documentation>
+    <xs:documentation>18/06/2018 12:42:09</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -558,6 +558,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -598,6 +601,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -1108,6 +1114,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -1148,6 +1157,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -1754,6 +1766,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -1794,6 +1809,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -2327,6 +2345,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -2367,6 +2388,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -2880,6 +2904,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -2920,6 +2947,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -3430,6 +3460,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -3470,6 +3503,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -4316,6 +4352,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -4356,6 +4395,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -4866,6 +4908,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -4906,6 +4951,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -5512,6 +5560,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -5552,6 +5603,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -6494,6 +6548,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -6534,6 +6591,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -7044,6 +7104,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -7084,6 +7147,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -8634,6 +8700,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -8674,6 +8743,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -9242,6 +9314,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -9282,6 +9357,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -9792,6 +9870,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -9832,6 +9913,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -10342,6 +10426,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -10382,6 +10469,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -10892,6 +10982,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -10932,6 +11025,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -11484,6 +11580,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -11524,6 +11623,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -12034,6 +12136,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -12074,6 +12179,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -12668,6 +12776,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -12708,6 +12819,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -13466,6 +13580,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -13506,6 +13623,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -14087,6 +14207,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -14127,6 +14250,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -14831,6 +14957,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -14871,6 +15000,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -15575,6 +15707,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -15615,6 +15750,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -16125,6 +16263,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -16165,6 +16306,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -17311,6 +17455,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -17351,6 +17498,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -17957,6 +18107,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -17997,6 +18150,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -18603,6 +18759,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -18643,6 +18802,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -19614,6 +19776,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -19654,6 +19819,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -20496,6 +20664,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -20536,6 +20707,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -21352,6 +21526,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -21392,6 +21569,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -21902,6 +22082,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -21942,6 +22125,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -22623,6 +22809,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -22663,6 +22852,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -23367,6 +23559,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -23407,6 +23602,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -23929,6 +24127,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -23969,6 +24170,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -24673,6 +24877,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -24713,6 +24920,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -25613,6 +25823,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -25653,6 +25866,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -26163,6 +26379,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -26203,6 +26422,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -28886,6 +29108,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -28926,6 +29151,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -31262,6 +31490,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -31302,6 +31533,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -32006,6 +32240,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -32046,6 +32283,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -32556,6 +32796,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -32596,6 +32839,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />
@@ -33361,6 +33607,9 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/avd_hide_password" />
             <xs:enumeration value="@drawable/avd_show_password" />
+            <xs:enumeration value="@drawable/backbutton" />
+            <xs:enumeration value="@drawable/bike" />
+            <xs:enumeration value="@drawable/car" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -33401,6 +33650,9 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
+            <xs:enumeration value="@drawable/parkherebutton" />
+            <xs:enumeration value="@drawable/rof" />
+            <xs:enumeration value="@drawable/settingsbutton" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@mipmap/ic_launcher" />

@@ -2,6 +2,9 @@ C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Parky.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\mscorlib.dll
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Plugin.CurrentActivity.dll
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Plugin.Geolocator.dll
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Plugin.Permissions.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\SQLite-net.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
@@ -28,6 +31,7 @@ C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Xamarin.Android
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Xamarin.GooglePlayServices.Base.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Xamarin.GooglePlayServices.Location.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Xamarin.GooglePlayServices.Maps.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\Xamarin.GooglePlayServices.Tasks.dll
 C:\Users\Jordy\source\repos\Parky\Parky\obj\Debug\android\assets\System.Runtime.dll

@@ -41,7 +41,9 @@ namespace Parky
             var table = db.Table<Vehicle>();
             foreach (var vehicle in table)
             {
-                displayText.Text += vehicle.Lat + " " + vehicle.Lng + "\n" + vehicle.Placed + "\n" + "\n";
+                //displayText.Text += vehicle.Lat + " " + vehicle.Lng + "\n" + vehicle.Placed + "\n" + "\n";
+                displayText.Text += string.Format("Coordinaten: {0}, {1} \n Datum: {2} \n", vehicle.Lat, vehicle.Lng, vehicle.Placed);
+                displayText.Text += "";
             }
 
             // Clickevents
